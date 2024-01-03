@@ -18,7 +18,7 @@ int check_num(char* buf, int c) {
 }
 
 int main() {
-    FILE* fd = fopen("input1.txt", "r");
+    FILE* fd = fopen("input.txt", "r");
     char buf[100];
     int sum = 0;
     while(fscanf(fd, "%s", buf) != EOF) {

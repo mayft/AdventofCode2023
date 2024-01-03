@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main(void) {
-    FILE* fd = fopen("input1.txt", "r");
+    FILE* fd = fopen("input.txt", "r");
     int sum = 0;
     int i = 0;
     char buf [100];
