@@ -6,7 +6,6 @@ sum = 0
 for line in file:
     game = re.search(r"Game \d+: ([^\n]+)", line)
     cubes = re.split(r"[,;] ", game.group(1))
-    #print(cubes)
     r = 0
     g = 0
     b = 0
